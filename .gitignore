@@ -1,0 +1,9 @@
+
+
+*.smx
+/*
+
+!/.gitignore
+!/general_insurgency/
+!/WIS/
+!/Neptune/

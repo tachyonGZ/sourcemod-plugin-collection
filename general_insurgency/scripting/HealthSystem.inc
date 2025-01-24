@@ -1,0 +1,1 @@
+forward void on_client_health_status_update(int client, int iHealth, int iMaxHealth);

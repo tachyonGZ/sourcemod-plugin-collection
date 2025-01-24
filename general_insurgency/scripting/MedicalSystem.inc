@@ -1,0 +1,1 @@
+forward void on_player_healed(int client, int healValue);

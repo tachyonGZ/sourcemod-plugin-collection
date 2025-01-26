@@ -174,7 +174,6 @@ void PrepareChangeLevel(char[] levelname)
 	
 	char hint[64];
 	FormatEx(hint, sizeof(hint), "服务器将在%.0f秒后将更换地图", g_cvar_delay.FloatValue, levelname);
-
 	for (int client = 1; client <= MaxClients; client++)
 	{
 		if (!IsClientInGame(client) || IsFakeClient(client))

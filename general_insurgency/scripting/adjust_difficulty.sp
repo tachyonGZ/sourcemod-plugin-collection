@@ -164,7 +164,7 @@ void AdjustDifficulty()
 		AdjustOutpostDifficulty(security_cnt);
 	}
 
-	PrintToChatAll("请各位玩家注意，因为玩家数量的发生变化(%d人)，游戏难度已经改变", security_cnt);
+	//PrintToChatAll("请各位玩家注意，因为玩家数量的发生变化(%d人)，游戏难度已经改变", security_cnt);
 }
 
 void AdjustCheckpointDifficulty(int security_cnt)

@@ -5,7 +5,7 @@
 #include <sdktools>
 #include <sdkhooks>
 #include "INSExtendAPI"
-#include "utility-api"
+#include "utility_api"
 
 #define PLUGIN_NAME "Suicide Bomber"
 #define PLUGIN_DESCRIPTION "Spawn some Bomber which can make suicide bomb"
